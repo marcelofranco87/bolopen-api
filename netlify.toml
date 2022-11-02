@@ -1,0 +1,9 @@
+[build]
+  publish = "/dist"
+  base = "/"
+  command = "npm run build"
+
+[[redirects]]
+  from = "/*"
+  to = "/api/"
+  status = 200
