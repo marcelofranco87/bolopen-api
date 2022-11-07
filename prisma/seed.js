@@ -143,7 +143,7 @@ const games = [
     {
       "gameTime": "2022-11-27T19:00:00Z",
       "homeTeam": "esp",
-      "awayTeam": "sui"
+      "awayTeam": "ale"
     },
     {
       "gameTime": "2022-11-28T10:00:00Z",
