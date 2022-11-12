@@ -31,7 +31,6 @@ model Game {
   awayTeam String
   gameTime DateTime
   groupLetter String
-  teste String
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt  
 
