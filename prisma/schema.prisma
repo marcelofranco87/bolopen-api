@@ -30,13 +30,13 @@ model Game {
   homeTeam String
   awayTeam String
   gameTime DateTime
-  group String
+  groupLetter String
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt  
 
   guesses Guess[]
 
-  @@unique([homeTeam, awayTeam, gameTime, group])
+  @@unique([homeTeam, awayTeam, gameTime, groupLetter])
 }
 
 model Guess {
