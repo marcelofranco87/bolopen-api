@@ -7,7 +7,7 @@ export const list = async ctx => {
     const currentGroup = ctx.request.query.group
 
     const where = currentGroup ? {
-        group: currentGroup,
+        group: currentGroup
     } : {}
 
     try {
