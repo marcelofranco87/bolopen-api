@@ -4,10 +4,10 @@ const prisma = new PrismaClient()
 
 export const list = async ctx => {
 
-    const currentGroup = ctx.request.query.group
+    const currentGroup = ctx.request.query.groupLetter
 
     const where = {
-        group: currentGroup
+        groupLetter: currentGroup
     }
 
     try {
