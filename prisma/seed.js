@@ -6,244 +6,292 @@ const games = [
     {
       "gameTime": "2022-11-20T16:00:00Z",
       "homeTeam": "cat",
-      "awayTeam": "equ"
+      "awayTeam": "equ",
+      "group": "a"
     },
     {
       "gameTime": "2022-11-21T13:00:00Z",
       "homeTeam": "ing",
-      "awayTeam": "ira"
+      "awayTeam": "ira",
+      "group": "b"
     },
     {
       "gameTime": "2022-11-21T16:00:00Z",
       "homeTeam": "sen",
-      "awayTeam": "hol"
+      "awayTeam": "hol",
+      "group": "a"
     },
     {
       "gameTime": "2022-11-21T19:00:00Z",
       "homeTeam": "eua",
-      "awayTeam": "gal"
+      "awayTeam": "gal",
+      "group": "b"
     },
     {
       "gameTime": "2022-11-22T10:00:00Z",
       "homeTeam": "arg",
-      "awayTeam": "ara"
+      "awayTeam": "ara",
+      "group": "c"
     },
     {
       "gameTime": "2022-11-22T13:00:00Z",
       "homeTeam": "din",
-      "awayTeam": "tun"
+      "awayTeam": "tun",
+      "group": "d"
     },
     {
       "gameTime": "2022-11-22T16:00:00Z",
       "homeTeam": "mex",
-      "awayTeam": "pol"
+      "awayTeam": "pol",
+      "group": "c"
     },
     {
       "gameTime": "2022-11-22T19:00:00Z",
       "homeTeam": "fra",
-      "awayTeam": "aus"
+      "awayTeam": "aus",
+      "group": "d"
     },
     {
       "gameTime": "2022-11-23T10:00:00Z",
       "homeTeam": "mar",
-      "awayTeam": "cro"
+      "awayTeam": "cro",
+      "group": "f"
     },
     {
       "gameTime": "2022-11-23T13:00:00Z",
       "homeTeam": "ale",
-      "awayTeam": "jap"
+      "awayTeam": "jap",
+      "group": "e"
     },
     {
       "gameTime": "2022-11-23T16:00:00Z",
       "homeTeam": "esp",
-      "awayTeam": "cos"
+      "awayTeam": "cos",
+      "group": "e"
     },
     {
       "gameTime": "2022-11-23T19:00:00Z",
       "homeTeam": "bel",
-      "awayTeam": "can"
+      "awayTeam": "can",
+      "group": "f"
     },
     {
       "gameTime": "2022-11-24T10:00:00Z",
       "homeTeam": "sui",
-      "awayTeam": "cam"
+      "awayTeam": "cam",
+      "group": "g"
     },
     {
       "gameTime": "2022-11-24T13:00:00Z",
       "homeTeam": "uru",
-      "awayTeam": "cor"
+      "awayTeam": "cor",
+      "group": "h"
     },
     {
       "gameTime": "2022-11-24T16:00:00Z",
       "homeTeam": "por",
-      "awayTeam": "gan"
+      "awayTeam": "gan",
+      "group": "h"
     },
     {
       "gameTime": "2022-11-24T19:00:00Z",
       "homeTeam": "bra",
-      "awayTeam": "ser"
+      "awayTeam": "ser",
+      "group": "g"
     },
     {
       "gameTime": "2022-11-25T10:00:00Z",
       "homeTeam": "gal",
-      "awayTeam": "ira"
+      "awayTeam": "ira",
+      "group": "b"
     },
     {
   
       "gameTime": "2022-11-25T13:00:00Z",
       "homeTeam": "cat",
-      "awayTeam": "sen"
+      "awayTeam": "sen",
+      "group": "a"
     },
     {
       "gameTime": "2022-11-25T16:00:00Z",
       "homeTeam": "hol",
-      "awayTeam": "equ"
+      "awayTeam": "equ",
+      "group": "a"
     },
     {
       "gameTime": "2022-11-25T19:00:00Z",
       "homeTeam": "ing",
-      "awayTeam": "eua"
+      "awayTeam": "eua",
+      "group": "b"
     },
     {
       "gameTime": "2022-11-26T10:00:00Z",
       "homeTeam": "tun",
-      "awayTeam": "aus"
+      "awayTeam": "aus",
+      "group": "d"
     },
     {
   
       "gameTime": "2022-11-26T13:00:00Z",
       "homeTeam": "pol",
-      "awayTeam": "ara"
+      "awayTeam": "ara",
+      "group": "c"
     },
     {
       "gameTime": "2022-11-26T16:00:00Z",
       "homeTeam": "fra",
-      "awayTeam": "din"
+      "awayTeam": "din",
+      "group": "d"
     },
     {
       "gameTime": "2022-11-26T19:00:00Z",
       "homeTeam": "arg",
-      "awayTeam": "mex"
+      "awayTeam": "mex",
+      "group": "c"
     },
     {
       "gameTime": "2022-11-27T10:00:00Z",
       "homeTeam": "jap",
-      "awayTeam": "cos"
+      "awayTeam": "cos",
+      "group": "e"
     },
     {
       "gameTime": "2022-11-27T13:00:00Z",
       "homeTeam": "bel",
-      "awayTeam": "mar"
+      "awayTeam": "mar",
+      "group": "f"
     },
     {
       "gameTime": "2022-11-27T16:00:00Z",
       "homeTeam": "cro",
-      "awayTeam": "can"
+      "awayTeam": "can",
+      "group": "f"
     },
     {
       "gameTime": "2022-11-27T19:00:00Z",
       "homeTeam": "esp",
-      "awayTeam": "ale"
+      "awayTeam": "ale",
+      "group": "e"
     },
     {
       "gameTime": "2022-11-28T10:00:00Z",
       "homeTeam": "cam",
-      "awayTeam": "ser"
+      "awayTeam": "ser",
+      "group": "g"
     },
     {
       "gameTime": "2022-11-28T13:00:00Z",
       "homeTeam": "cor",
-      "awayTeam": "gan"
+      "awayTeam": "gan",
+      "group": "h"
     },
     {
       "gameTime": "2022-11-28T16:00:00Z",
       "homeTeam": "bra",
-      "awayTeam": "sui"
+      "awayTeam": "sui",
+      "group": "g"
     },
     {
       "gameTime": "2022-11-28T19:00:00Z",
       "homeTeam": "por",
-      "awayTeam": "uru"
+      "awayTeam": "uru",
+      "group": "h"
     },
     {
       "gameTime": "2022-11-29T15:00:00Z",
       "homeTeam": "equ",
-      "awayTeam": "sen"
+      "awayTeam": "sen",
+      "group": "a"
     },
     {
       "gameTime": "2022-11-29T15:00:00Z",
       "homeTeam": "hol",
-      "awayTeam": "cat"
+      "awayTeam": "cat",
+      "group": "a"
     },
     {
       "gameTime": "2022-11-29T19:00:00Z",
       "homeTeam": "gal",
-      "awayTeam": "ing"
+      "awayTeam": "ing",
+      "group": "b"
     },
     {
       "gameTime": "2022-11-29T19:00:00Z",
       "homeTeam": "ira",
-      "awayTeam": "eua"
+      "awayTeam": "eua",
+      "group": "b"
     },
     {
       "gameTime": "2022-11-30T15:00:00Z",
       "homeTeam": "aus",
-      "awayTeam": "din"
+      "awayTeam": "din",
+      "group": "d"
     },
     {
       "gameTime": "2022-11-30T15:00:00Z",
       "homeTeam": "tun",
-      "awayTeam": "fra"
+      "awayTeam": "fra",
+      "group": "d"
     },
     {
       "gameTime": "2022-11-30T19:00:00Z",
       "homeTeam": "pol",
-      "awayTeam": "arg"
+      "awayTeam": "arg",
+      "group": "c"
     },
     {
       "gameTime": "2022-11-30T19:00:00Z",
       "homeTeam": "ara",
-      "awayTeam": "mex"
+      "awayTeam": "mex",
+      "group": "c"
     },
     {
       "gameTime": "2022-12-01T15:00:00Z",
       "homeTeam": "cro",
-      "awayTeam": "bel"
+      "awayTeam": "bel",
+      "group": "f"
     },
     {
       "gameTime": "2022-12-01T15:00:00Z",
       "homeTeam": "can",
-      "awayTeam": "mar"
+      "awayTeam": "mar",
+      "group": "f"
     },
     {
       "gameTime": "2022-12-01T19:00:00Z",
       "homeTeam": "jap",
-      "awayTeam": "esp"
+      "awayTeam": "esp",
+      "group": "e"
     },
     {
       "gameTime": "2022-12-01T19:00:00Z",
       "homeTeam": "cos",
-      "awayTeam": "ale"
+      "awayTeam": "ale",
+      "group": "e"
     },
     {
       "gameTime": "2022-12-02T15:00:00Z",
       "homeTeam": "gan",
-      "awayTeam": "uru"
+      "awayTeam": "uru",
+      "group": "h"
     },
     {
       "gameTime": "2022-12-02T15:00:00Z",
       "homeTeam": "cor",
-      "awayTeam": "por"
+      "awayTeam": "por",
+      "group": "h"
     },
     {
       "gameTime": "2022-12-02T19:00:00Z",
       "homeTeam": "ser",
-      "awayTeam": "sui"
+      "awayTeam": "sui",
+      "group": "g"
     },
     {
       "gameTime": "2022-12-02T19:00:00Z",
       "homeTeam": "cam",
-      "awayTeam": "bra"
+      "awayTeam": "bra",
+      "group": "g"
     }
   ]
 
