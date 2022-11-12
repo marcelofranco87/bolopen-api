@@ -30,10 +30,9 @@ model Game {
   homeTeam String
   awayTeam String
   gameTime DateTime
-  group String
-
   createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt  
+  updatedAt DateTime @updatedAt
+  group String
 
   guesses Guess[]
 
