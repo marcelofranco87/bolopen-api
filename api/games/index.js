@@ -6,12 +6,10 @@ export const list = async ctx => {
 
     const currentGroup = ctx.request.query.group
 
-    const where = currentGroup ? {
-        group: currentGroup
-    } : {}
-
     try {
-        const games = await prisma.game.findMany({ where })
+        const games = await prisma.game.findMany({ where: {
+            group: currentGroup
+        } })
         
         ctx.body = games
         ctx.status = 200        
